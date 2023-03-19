@@ -77,6 +77,10 @@ neva.shock_and_solve(bsys, equity_delta, 'exante_en_blackcox_gbm',
 # reading equities after one round and after all rounds  
 equity_direct = bsys.history[1]
 equity_final = bsys.history[-1]
+
+# do fire sale
+neva.fire_sale(bsys, params)
+equity_after_fs = bsys.history[-1]
 ```
 
 ## Compatibility
