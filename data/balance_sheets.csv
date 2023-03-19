@@ -1,4 +1,4 @@
-bank_name,external_asset,external_liabilities,sigma_equity,maturity
-A,10,9,0.2,1.25
-B,5,4,0.2,1.25
-C,3,2,0.2,1.25
+bank_name,external_asset,external_liabilities,sigma_equity,maturity,liquidity,target_leverage
+A,10,8.5,0.2,1.25,0.01,9.0
+B,5,3.5,0.2,1.25,0.01,5.0
+C,3,2,0.2,1.25,0.01,4.0
